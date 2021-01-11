@@ -42,3 +42,23 @@ DevOps HandBook, múltiplos autores
 DevOps, Casa do Código
 
 #################################################
+
+Release Antipatterns
+
+Antipatterns
+	1- Gerenciamento manual de ambientes -> Resultado: Deploy não confiável)
+	Regra - Todos os ambientes são tratados como código, versionados e criados de maneira automarizada.
+	2- Deploy manual -> Resultado: Deploy lento, propício a erro, não confiável
+	Regra - Duas tarefas devem ser executadas manualmente:
+				1- escolher a versão do release
+				2- click no "deploy button"
+	3- Deploy apenas no fim do ciclo -> Resultado: pouca colaboração, problemas só aparecem no dia da publicação, não confiável nem rápido, achismo
+	Regra - deployment faz parte do desenvolvimento desde a primeira iteração, todos definem um delivery team
+
+Devemos portanto ter:
+
+Gerenciamento automatizado de ambientes
+Deploy automatizado
+Deploy frequente em cada ciclo de desenvolvimento
+
+#################################################
