@@ -62,3 +62,15 @@ Deploy automatizado
 Deploy frequente em cada ciclo de desenvolvimento
 
 #################################################
+
+Entrega Contínua vs Deploy Contínuo
+
+São conceitos similares, mas a diferença reside na última etapa do pipeline de construção do software entre a homologação e produção.
+
+Na entrega contínua as modificações e atualizações não são enviadas prontamente para a produção, isto é, ficam "paradas" na homologação. Não existe uma razão técnica para segurar estas alterações, elas são de fato seguras e funcionais, mas os motivos envolvem estratégias de negócio.
+
+Por exemplo, uma empresa deseja lançar um conjunto de features novas para o cliente em um evento especial de vendas
+
+No caso do deploy contínuo, as modificações vão de fato para o ambiente de produção. 
+
+#################################################
