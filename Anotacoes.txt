@@ -19,3 +19,26 @@ Seguem algumas fontes que usamos para criar este curso:
 
 #################################################
 
+Diminuindo risco
+
+Não devemos fazer o deploy ser um evento raro e demorado, mas sim um processo natural e frequente no projeto.
+
+Devemos lembrar que a prioridade número um de uma equipe é deixar o cliente satisfeito, com um projeto funcional e com entrega contínua carregada de valor.
+
+Devemos, portanto, realizar deploys frequentes e preferencialmente automatizados e com feedbacks rápidos, como manda o processo ágil. 
+
+Parece simples, mas esse pipeline apresenta dificuldades reais de implementação dentro de ambientes empresariais. Geralmente temos uma equipe múltipla envolvida na construção de um projeto e que atuam de maneira muito diferente, e isso pode gerar ruídos.
+
+Por isso o DevOps é importante, criar um ambiente de trabalho colaborativo e ágil. Trata-se de uma modificação cultural muito mais do que implementação de ferramentas.
+
+- feedback contínuo
+- melhoria contínua
+- aprendizagem contínua
+
+Existem três livros interessantes que podemos citar como referência:
+
+Continuous Delivery, Jez Humble e David Farley
+DevOps HandBook, múltiplos autores
+DevOps, Casa do Código
+
+#################################################
