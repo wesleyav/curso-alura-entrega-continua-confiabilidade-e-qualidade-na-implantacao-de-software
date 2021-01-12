@@ -429,3 +429,11 @@ Um exemplo é quando é oferecida a consdição de "beta tester" para o usuário
 Esta estratégia pode ser combinada ao Canary Release: uma parcela dos usuários que será direcionado para a versão nova utilizará o Feature Toggles habilitado. Há pessoas que defendem que toda a nova funcionalidade deve ser um Feature Toggles, mas para isso ser implementado de maneira correta deve-se elaborar uma estratégia para lidar com essa proposta.
 
 #################################################
+
+Para saber mais: The Twelve-Factor App
+
+The Twelve-Factor App é um site (ou metodologia) que define 12 boas práticas para construir software na era de nuvem. Muitas das boas práticas discutidas no curso aparecem no Twelve-Factor, assim como gerenciamento de configuração, portabilidade entre ambientes ou implantação contínua. Vale conferir!
+
+https://12factor.net/pt_br/
+
+#################################################
