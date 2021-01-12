@@ -169,3 +169,31 @@ Nesta aula, aprendemos sobre os fundamentos e princípios da Entrega Contínua:
 Além disso, falamos os elementos mais importantes para implementar a entrega contínua, como a cultura DevOps, Pattern de deployment e mudanças arquiteturais.
 
 #################################################
+
+Etapas do pipeline
+
+Conheceremos as etapas clássicas do deploy.
+
+1. Build
+
+O começo de tudo é build, isto é o desenvolvedor vai construir o software.
+
+2. Testes de aceitação automatizados
+
+Depois da construção do software são executados os testes necessários. Por meio dos testes criamos relatórios sobre a qualidade do sistema. Se alguma etapa falhar ela é congelada por aqui e o artefato não é promovido.
+
+3 Homologação UAT A próxima etapa - caso tudo ocorra como o esperado - é a promoção do artefato. Este é o ambiente classico de User Acceptance Testing, ou simplesmente homologação. Nesta fase não executados os testes mais complexos que não podem ser automatizados.
+
+4. Produção
+
+Depois da aprovação manual, iremos para o ambiente de produção, em que o artefato será de fato produzido de maneira segura.
+
+Cada etapa citada constrói mais confiança no produto.Os testes não garantem tudo, mas diminuímos muito a probabilidade de erros. O ambiente de homologação deve ser o mais perecido o possível com o de produção para garantirmos a eficiência do deploy.
+
+Nesse processo podem ter outras etapas. 
+
+O pipeline representa o processo de produção específico de uma equipe ou empresa, portanto não temos um padrão rígido.
+
+O processo de pipeline se inicia a cada comit que é testado separadamente. Nesta etapa os desenvolvedores utilizam ferramentas como Slack ou Telegram para se comunicarem sobre o estado do build, e se acontece algum problema toda a equipe é responsável.
+
+#################################################
